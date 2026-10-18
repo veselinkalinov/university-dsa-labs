@@ -9,7 +9,8 @@ def selection_sort(arr: list) -> list:
     return arr
 
 
-arr = [8, 7, 6, 5, 3, 2, 1, 4, 9]
+if __name__ == "__main__":
+    arr = [8, 7, 6, 5, 3, 2, 1, 4, 9]
 
-sorted_arr = selection_sort(arr)
-print(sorted_arr)
+    sorted_arr = selection_sort(arr)
+    print(sorted_arr)
