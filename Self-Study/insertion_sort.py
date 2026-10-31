@@ -12,6 +12,7 @@ def insertion_sort(arr: list) -> list:
     return arr
 
 
-a = [7, 3, 5, 2]
-arr = insertion_sort(a)
-print(arr)
+if __name__ == "__main__":
+    arr = [7, 3, 5, 2]
+    arr_sorted = insertion_sort(arr)
+    print(arr_sorted)

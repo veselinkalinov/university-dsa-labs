@@ -1,11 +1,10 @@
 def selection_sort(arr: list) -> list:
     for i in range(0, len(arr) - 1):
-        min_index = i
+        min_idx = i
         for j in range(i + 1, len(arr)):
-            if arr[j] < arr[min_index]:
-                min_index = j
-
-        arr[i], arr[min_index] = arr[min_index], arr[i]
+            if arr[j] < arr[min_idx]:
+                min_idx = j
+        arr[i], arr[min_idx] = arr[min_idx], arr[i]
 
     return arr
 
